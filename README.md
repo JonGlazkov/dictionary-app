@@ -34,4 +34,4 @@ Rode os seguintes comandos
 
 Caso não tenha o npm pode rodar com qualquer um de sua preferência
 
-
+Caso queira facilitar a execução do projeto, é só baixar o Expo GO no seu celular, garantir que esteja na mesma rede da sua máquina, e escanear o QR Code após a execução do comando acima.
