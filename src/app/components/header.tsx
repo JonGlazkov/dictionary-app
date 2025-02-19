@@ -12,10 +12,11 @@ export default function Header({ title }: HeaderProps) {
 
   return (
     <Appbar.Header mode="small" statusBarHeight={2}>
-      {router.canGoBack() && (
+      {router.canGoBack() ? (
         <Appbar.BackAction size={16} onPress={handleRouterBack} />
+      ) : (
+        <Appbar.Action icon="book-open-blank-variant" />
       )}
-      <Appbar.Action icon="book-open-blank-variant" />
       <Appbar.Content title={title} />
     </Appbar.Header>
   );
