@@ -36,6 +36,7 @@ export default function Search({ onSearch }: SearchProps) {
         value={search}
         onChangeText={handleSearch}
         onSubmitEditing={handleSearchSubmit}
+        returnKeyType="search"
         right={<TextInput.Icon icon="magnify" />}
       />
     </View>
